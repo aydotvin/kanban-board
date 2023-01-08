@@ -1,5 +1,5 @@
 import { signupApi, signinApi, generateAccessToken, checkDuplicateSignup } from "../model/userManagement";
-import { validateData, deleteObjectProperties, validateEmail } from "../helper/utility_methods";
+import { validateData, deleteObjectProperties, validateEmail } from "../helper/utilityMethods";
 import bcrypt from "bcryptjs";
 
 const signupService = (data = {}) => {

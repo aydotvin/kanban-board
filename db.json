@@ -1,4 +1,48 @@
 {
-	"users_list": [],
-	"tasks_list": []
+  "users_list": [
+    {
+      "name": "john1",
+      "username": "j1d",
+      "email": "j1@gmail.com",
+      "contact": "",
+      "profile_picture": "",
+      "hashedPassword": "$2a$10$MGR9sCUDvuN.myOUJ3YJY.g3JXs1k5KCr8141xIeQCQ1VMtDP3u0.",
+      "id": 1
+    },
+    {
+      "name": "john2",
+      "username": "j2d",
+      "email": "j2d@gmail.com",
+      "contact": "",
+      "profile_picture": "",
+      "hashedPassword": "$2a$10$x9TOtnq8lEDp9OQtvrbZve77C5JuEzh.iPmhxBll9G3UjRu3aiAl.",
+      "id": 2
+    }
+  ],
+  "tasks_list": [
+    {
+      "task_name": "Task 1",
+      "task_priority": "MEDIUM",
+      "task_stage": "1",
+      "task_deadline": "2023-01-17",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "task_name": "task 2 j2",
+      "task_priority": "MEDIUM",
+      "task_stage": "3",
+      "task_deadline": "2023-01-08",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "task_name": "task 3 j2",
+      "task_priority": "HIGH",
+      "task_stage": "0",
+      "task_deadline": "2023-11-30",
+      "userId": 2,
+      "id": 3
+    }
+  ]
 }

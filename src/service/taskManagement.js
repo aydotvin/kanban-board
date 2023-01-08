@@ -1,5 +1,5 @@
 import { getTasksOfUserApi, deleteTaskByIDApi, moveTaskStageApi, addNewTaskApi } from "../model/taskManagement";
-import { validateData } from "../helper/utility_methods";
+import { validateData } from "../helper/utilityMethods";
 
 const getTasksDataService = (data = {}) => {
 	return new Promise((resolve, reject) => {
